@@ -1,6 +1,6 @@
 # Data Modeling Cassandra
 
-The purpose of this repo is to complete an ETL pipeline, by creating tables in Apache Cassandra to run queries. Data modelling is done by creating tables in Apache Cassandra to run queries. The ETL pipeline transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
+The purpose of this repo is to complete an ETL pipeline by creating tables in Apache Cassandra. The ETL pipeline transfers data from a set of CSV files within a directory, creates a streamlined CSV file to model and insert the data into Apache Cassandra tables.
 The steps are as follows: 
 - process the `event_datafile_new.csv` dataset to create a denormalized dataset
 - model the data tables keeping in mind the queries you need to run
